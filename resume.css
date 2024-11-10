@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "poppins";
+}
+
+.outer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  /* background-color: rgb(145, 115, 145); */
+}
+
+.cv {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: auto;
+  border-radius: 15px;
+  width: 879px;
+  background-color: transparent;
+  /* overflow: hidden; */
+  box-shadow: 4px 1px 24px #dadada;
+}
+
+.side1 {
+  width: 31%;
+  height: auto;
+  background-color: #064945;
+  padding: 32px 29px;
+}
+
+/* personal outer div start */
+.personal-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  color: #e9e9e9;
+  text-transform: capitalize;
+  text-align: center;
+}
+.profile {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile img {
+  height: 100%;
+  width: 100%;
+}
+.personal-outer .name {
+  font-weight: 700;
+  font-family: "Poppins";
+  font-size: 19px;
+  text-align: center;
+}
+
+.pro-line {
+  width: 40px;
+  height: 1px;
+  border-bottom: 1px solid #ffffff81;
+}
+
+.personal-outer .designation {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #e9e9e9ed;
+}
+/* personal outer ends */
+
+/* //////// */
+
+/* about section start */
+.about-outer {
+  margin-top: 33px;
+  color: #e9e9e9;
+}
+
+.about-outer h5 {
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+.about-outer div {
+  /* include phone,address,email */
+  font-size: 13px;
+  color: #e9e9e9ed;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-bottom: 17px;
+}
+.about-outer .address {
+  text-transform: capitalize;
+}
+
+/* about section ends */
+
+/* ///// */
+
+/* skill section strat */
+.skill-outer {
+  color: #e9e9e9ed;
+  margin-top: 33px;
+}
+
+.skill-outer h5 {
+  color: #e9e9e9;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.skills {
+  list-style:disc;
+}
+
+.skills li {
+  margin-bottom: 17px;
+  font-size: 13px;
+  text-transform: capitalize;
+  line-height: 1.8;
+  color: #e9e9e9ed;
+}
+/* skill section ends */
+
+/* //// */
+/* //// */
+/* //// */
+
+/* side2 start */
+.side2 {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  padding: 38px 29px;
+}
+hr {
+  border: 1px solid #0000000c;
+  border-radius: 30px;
+}
+
+/* achievements start */
+.achievment-outer {
+  width: 100%;
+}
+.h5,
+.education-outer h5,
+.achievment-outer h5 {
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+.achievement-container {
+  width: 100%;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.a-title {
+  background-color: #f1f1f1a8;
+  font-size: 12.6px;
+  font-weight: 600;
+}
+.a-description {
+  font-size: 12.4px;
+}
+/* achievements ends */
+
+/* education start */
+.education-outer {
+  margin-top: 25px;
+}
+.education-container {
+  width: 100%;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.e-school {
+  background-color: #f1f1f1a8;
+  font-size: 12.6px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+.e-date,
+.e-city,
+.e-degree,
+.e-start,
+.e-end {
+  display: inline;
+  margin-right: 4px;
+  font-size: 12.4px;
+}
+.e-degree {
+  font-weight: 600;
+  font-size: 12.4px;
+  text-transform: capitalize;
+}
+.e-city {
+  text-transform: capitalize;
+  font-size: 12.4px;
+  font-style: italic;
+  font-weight: 500;
+  color: #000000a3;
+}
+.e-start,
+.e-end {
+  font-size: 12.4px;
+  background-color: #064945;
+  color: #e9e9e9;
+  padding: 0 6px;
+  border-radius: 4px;
+}
+.e-description {
+  text-transform: capitalize;
+  font-size: 12.4px;
+  margin-top: 4px;
+  color: #0000008b;
+}
+/*-- education ends --*/
+
+/* experiences start */
+.experience-outer {
+  margin-top: 25px;
+}
+.experience-container {
+  margin-bottom: 10px;
+}
+.ex-title {
+  background-color: #f1f1f1a8;
+  font-size: 12.6px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+.ex-name {
+  font-weight: 600;
+  font-size: 12.4px;
+  text-transform: capitalize;
+}
+.ex-address {
+  text-transform: capitalize;
+  font-size: 12.4px;
+  font-style: italic;
+  font-weight: 500;
+  color: #000000a3;
+}
+.ex-start,
+.ex-end {
+  font-size: 12.4px;
+  background-color: #064945;
+  color: #e9e9e9;
+  padding: 0 6px;
+  border-radius: 4px;
+}
+.ex-name,
+.ex-address,
+.ex-date,
+.ex-start,
+.ex-end {
+  display: inline;
+  margin-right: 4px;
+}
+.ex-description {
+  text-transform: capitalize;
+  font-size: 12.4px;
+  margin-top: 4px;
+  color: #0000008b;
+}
+/* experiences ends */
+
+/* project section start */
+.project-outer {
+  margin-top: 20px;
+}
+.project-container {
+  margin-bottom: 10px;
+}
+.pr-link{
+  font-size: 12.4px;
+}
+.pr-title {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 12.6px;
+}
+.pr-description {
+  color: #0000008b;
+  font-size: 12.4px;
+}
+
+/* project section ends */
+
+
+
+/* button function */
+.bottunDiv{
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+  /* border: #064945 solid 1px; */
+  width: 100%;
+  padding-bottom: 50px;
+}
+.bottunDiv button{
+font-size: 15px;
+background-color: #064945;
+color: #e9e9e9;
+border: none;
+padding: 10px 30px;
+border-radius: 10px;
+
+}
+
+
+
+
+
+/* side2 ends */
+
+@media (max-width: 640px) {
+  .side1 {
+    width: 35%;
+    padding: 25px 9px;
+  }
+
+  .profile {
+    width: 70px;
+    height: 70px;
+  }
+
+  .personal-outer .name {
+    font-size: 4.2vw;
+    line-height: 1;
+  }
+
+  .personal-outer .designation {
+    font-size: 2.3vw;
+  }
+
+  .about-outer {
+    margin-top: 19px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 15px;
+  }
+
+  .about-outer h5,
+  .skill-outer h5 {
+    margin-bottom: 16px;
+    font-size: 3.65vw;
+  }
+
+  .about-outer div,
+  .skill-outer .skills li {
+    font-size: 2.3vw;
+    line-height: 1.3;
+    margin-bottom: 11px;
+
+  }
+
+  .skill-outer {
+    text-align: center;
+    padding: 0px 15px;
+  }
+  .skills {
+    list-style: none;
+  }
+  /* side --2 */
+  .side2 {
+    padding: 29px 9px;
+  }
+  .ex-date,
+  .e-date {
+    display: block;
+    margin-top: -1px;
+  }
+  .ex-date {
+    display: block;
+  }
+
+  .side2 h5 {
+    font-size: 3vw;
+  }
+
+  .a-title,
+  .ex-title,
+  .e-school,
+  .pr-title{
+  font-size:2.6vw ;
+  }
+
+  .ex-name,
+.ex-address,
+.ex-date,
+.ex-start,
+.ex-end ,
+.ex-description,
+.e-date,
+.e-city,
+.e-degree,
+.e-start,
+.e-end ,
+.e-description,
+.a-description,
+.pr-title,
+.pr-description,
+.pr-link{
+  font-size: 2vw;
+}
+
+.bottunDiv button{
+  font-size: 3vw;
+  background-color: #064945;
+  color: #e9e9e9;
+  border: none;
+  padding: 1.8vw 3.9vw;
+  border-radius: 10px;
+  
+  }
+  
+
+
+}
+

@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width:100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'poppins';
+    background-color: #ebebeb6e;
+}
+
+.main{
+    width: 100vw;
+    height: 100%;
+    /* background-color: rgba(202, 202, 202, 0.667); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* .co-parent{
+
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    margin-bottom: 50px;
+} */
+.parent{
+position: relative;
+    margin:50px 0px 20px 0px;
+    width:879px;
+    height: auto;
+    background-color: #ffffff;
+    padding-top: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    /* border: 1px solid #151515; */
+    box-shadow: 4px 1px 14px #dadada;
+}
+
+/* about section start */
+.about-section{
+    width: 100%;
+}
+.about-h5,
+.h5{
+    text-transform: uppercase;
+    /* width: 100%; */
+    background-color: #24273A;
+    color: #f1f1f1;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding: 5px 16px;
+}
+.about-input-outer{
+    border: 1px solid #dadada;
+    margin: 20px 0;
+    display: grid;
+    gap: 5px;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 55px 55px 55px;
+    padding: 20px 15px;
+}
+
+.input-wrap{
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-wrap #profile{
+    font-size: 12px;
+    padding: 4px;
+} 
+ input{
+    border: 1px solid #dadada;
+    background-color: #ffffff;
+    padding: 5px 5px;
+    font-size: 16px;
+    color: rgb(109, 109, 109);
+    text-transform: capitalize;
+    /* transition: all 0.3s ease; */
+}
+input[type="date"]{
+    text-transform: lowercase;
+}
+input {
+    outline: none;
+}
+input[type="email"]:focus{
+    background-color: #ffffff;
+}
+
+
+input:focus {
+    /* border-color: #24273a62;  */
+    box-shadow: 0px 0px 1px #24273A; /* Soft shadow for effect */
+}
+
+label{
+    font-size:15px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.address{
+    grid-column-start:2;
+    grid-column-end: 4;
+}
+.phone-no{
+    grid-column-start:2;
+    grid-column-end: 4;
+}
+/* about section ends */
+
+/* achievement section start */
+.achievement-input-outer-both{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.achievement-input-outer{
+    border: 1px solid #dadada;
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+/* achievement section ends */
+
+/* experience section start */
+.experience-input-outer-both{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.experience-input-outer{
+    border: 1px solid #dadada;
+    padding: 20px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 9px;
+}
+/* experience section ends */
+
+/* education section start */
+.education-input-outer-both{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.education-input-outer{
+    border: 1px solid #dadada;
+    padding: 20px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 9px;
+
+}
+/* education section ends */
+
+/* project section start */
+.project-input-outer-both{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.project-input-outer{
+    border: 1px solid #dadada;
+    padding: 20px 15px;
+    display: flex;
+    gap: 9px;   
+}
+/* project section ends */
+
+/* skill section start */
+.skill-input-outer-both{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.skill-input-outer{
+    border: 1px solid #dadada;
+    padding: 20px 15px;
+    display: flex;
+    gap: 9px; 
+}
+
+/* skill section ends */
+button{
+    color: #f1f1f1;
+    background-color: #24273A;
+    padding: 15px 30px;
+    border-radius: 40px;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    margin:  0 auto;
+    display: block;    /* Button ko block-level element banane ke liye */
+    margin: 0 auto; 
+}
+button:hover{
+    background-color: #24273ae0;
+}
+button:active{
+    transform: scale(0.95);
+}
+
+@media (max-width:640px) {
+    .h5{
+        font-size: 3.5vw;
+    }
+    label{
+        font-size:2.6vw;
+        /* padding: 5px; */
+    }
+    input{
+        font-size: 2.2vw;
+    }
+    /* all outer start */
+    .achievement-input-outer{
+        padding: 5px 10px;
+    }
+    .about-input-outer{
+        padding: 5px 10px;
+    }
+    .experience-input-outer{
+        padding: 5px 10px;
+    }
+    .education-input-outer{
+        padding: 5px 10px;
+    }
+    .project-input-outer{
+        padding: 5px 10px;
+
+    }
+
+    /* all outer ends */
+    .input-wrap #profile{
+        padding: 2px;
+    }
+}
+@media (max-width:460px) {
+    .h5{
+        font-size: 3.8vw;
+        padding-left:7px;
+    }
+    .about-input-outer{
+        grid-template-rows: 45px 45px 45px;
+    }
+    label{
+        font-size:3.1vw;
+        /* padding: 5px; */
+    }
+    input{
+        font-size: 2.2vw;
+    }
+    .input-wrap #profile{
+        font-size: 1.9vw;
+        padding: 3px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
